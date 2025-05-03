@@ -1,5 +1,6 @@
-# wcm_people_development
-An open source project that implements Pillar 9 "People Development" of the World Class Manufacturing Protocol
+# People Development
+An open source project that implements Pillar 9 "People Development" of the World Class Manufacturing Protocol.
+
 
 World Class Manufacturing (WCM) is a comprehensive, systematic approach to improve all aspects of a manufacturing operation. It focuses on continuous improvement, waste elimination, and achieving world-class production standards across all areas, from safety to customer service, and from equipment management to employee development. The goal is to achieve a "zero waste" state in terms of defects, downtime, accidents, and customer dissatisfaction. 
 Here's a more detailed breakdown:
