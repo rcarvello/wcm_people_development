@@ -27,7 +27,9 @@ WCM is often organized around 10 key pillars, including:
  7. Logistic/Customer Services: Managing supply chains and meeting customer needs.  
  8. Early Equipment Management: Making informed decisions about equipment purchases and maintenance.
  9. **People Development**: Investing in employee skills and training.
- 11. 9. Environment: Minimising environmental impact.  
+ 10. Environment: Minimising environmental impact.
+
+![enter image description here](https://raw.githubusercontent.com/rcarvello/wcm_people_development/master/resources/wcm_pillars.png)
 
 **7-Step Implementation Process:**
 Each pillar is implemented through a 7-step process, moving from reactive to preventive and ultimately proactive approaches. 
