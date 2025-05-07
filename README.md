@@ -215,6 +215,13 @@ Drive continuous personal improvement
 ![enter image description here](https://raw.githubusercontent.com/rcarvello/wcm_people_development/master/resources/herca.png)
 ![enter image description here](https://raw.githubusercontent.com/rcarvello/wcm_people_development/master/resources/twttp.png)
 
+## Requirements and setup
+
+People Development Web App is coded in HTML, JS, JS, BootStrap and jQuery for the FrontEnd
+and PHP with  MySQL in BackEnd. It is developed by using [PHP Web MVC Framework](https://github.com/rcarvello/webmvcframework)
+It requires a server with a Apache, PHP >= 7.2 and MySQL >= 5.5
+To install it  just copy the source code into a web folder and set MySql parameters in application.config.php. Execute .sql files into your MySql server to create DB schema
+
 ### Thanks
 Many and many thanks to   
 
