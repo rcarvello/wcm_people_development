@@ -25,9 +25,9 @@ WCM is often organized around 10 key pillars, including:
  5. Professional Maintenance: Implementing a structured maintenance program.  
  6. Quality  Control: Ensuring product quality through statistical process  control.
  7. Logistic/Customer Services: Managing supply chains and meeting customer needs.  
- 8. Early Equipment Management: Making informed decisions about equipment purchases and maintenance.  
- 9. Environment: Minimizing environmental impact.  
- 10. **People Development**: Investing in employee skills and training.
+ 8. Early Equipment Management: Making informed decisions about equipment purchases and maintenance.
+ 9. **People Development**: Investing in employee skills and training.
+ 11. 9. Environment: Minimising environmental impact.  
 
 **7-Step Implementation Process:**
 Each pillar is implemented through a 7-step process, moving from reactive to preventive and ultimately proactive approaches. 
