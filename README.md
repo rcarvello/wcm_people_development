@@ -1,5 +1,5 @@
 # People Development
-An open source project that implements the "People Development" pillar of the World Class Manufacturing Protocol.
+An open-source implementation of the "People Development" pillar of the World Class Manufacturing Protocol.
 
 ## Introduction
 
@@ -94,10 +94,134 @@ Here's a breakdown of the **basic requirements** for implementing this pillar:
 -   Implement systems for feedback and evaluation of training effectiveness.
     
 
-## The People Development Application
+## The People Development Web App
 
-PD is a technical aid for the assessment and development of skills in continuous improvement programs.
+PD Wev App is a technical aid for assessing and developing skills in continuous improvement programs.
 
-Strategic human resources management is the lever for achieving excellence. The People Development (PD) app promotes the development of skills of people working in the factory starting from the mapping of tasks and skills needed to carry out production activities. With the PD app, the skills of each worker are identified and assessed with a score; the values ​​recorded concern both the minimum skills required by the job and those detected by the evaluator. The deviations between the expected value and the assessed value, highlighted in a skills radar chart, allow the training needs of the worker to be assessed and training action to be planned to fill the skills gap.
+Strategic human resources management is the lever for achieving excellence. The People Development (PD) app promotes the development of skills of people working in the factory starting from the mapping of tasks and skills needed to carry out production activities. With the PD app, the skills of each worker are identified and assessed with a score; the values ​​recorded concern both the minimum skills required by the job and those detected by the evaluator. The deviations between the expected value and the assessed value, highlighted in a skills radar chart, allow the worker's training needs to be assessed and training action to be planned to fill the skills gap.
 
-to be continued....
+In **World Class Manufacturing (WCM)**, **HERCA** and effective **Ways to Teach People** are central to the **People Development** pillar. Here’s how they fit in:
+
+----------
+
+#### **HERCA – Hierarchical Evaluation and Recognition of Competence and Ability**
+
+HERCA is a structured method used in WCM to assess and develop employee skills.
+
+#### **Key Aspects of HERCA:**
+
+1.  **Hierarchical Evaluation**:
+    
+    -   Skills are ranked based on levels of competence (e.g., from beginner to expert).
+        
+    -   Each level has defined criteria for knowledge, execution, teaching ability, and problem-solving.
+        
+2.  **Competency Ladder**:
+    
+    -   Often shown in a **skills matrix**, mapping each worker's level against required skills.
+        
+    -   Promotes **multi-skilling** and a clear development path.
+        
+3.  **Recognition**:
+    
+    -   Achievements are visibly acknowledged (e.g., skill badges, certificates, wall boards).
+        
+    -   Motivates employees and aligns with the principle of respect for people.
+        
+4.  **Personal Development Plan (PDP)**:
+    
+    -   Created for each worker to close skill gaps and advance to the next level.
+        
+    -   Monitored regularly by team leaders or supervisors.
+        
+
+----------
+
+#### **The Way to Teach People – TWI & 4-Step Method**
+
+Training must be structured and effective. WCM encourages using standard methods like:
+
+**TWI (Training Within Industry) – Job Instruction (JI)**
+
+A proven method for teaching skills on the shop floor.
+
+1.  **Prepare the Worker**
+    
+    -   Put them at ease, ensure they’re ready to learn.
+        
+2.  **Present the Operation**
+    
+    -   Break it into key steps and explain why each step is important.
+        
+3.  **Try Out Performance**
+    
+    -   Let the learner try, correct errors gently, and reinforce good habits.
+        
+4.  **Follow Up**
+    
+    -   Check progress, offer support, and encourage improvement.
+        
+
+#### 🧾 **Standardized Teaching Aids**
+
+-   Use **visuals, one-point lessons (OPLs)**, and **job breakdown sheets** to support teaching.
+    
+-   Lessons should be **short, focused, and repeatable**.
+    
+
+----------
+
+### How HERCA and Teaching Methods Fit into People Development App
+
+
+**HERCA**
+
+Assess, structure, and track skill development
+
+**Skills Matrix**
+
+Visualise current vs. required competencies
+
+**TWI/4-Step Method**
+
+Ensure consistent, effective skill transfer
+
+**Recognition**
+
+Motivate and retain talent
+
+**PDP**
+
+Drive continuous personal improvement
+
+### Web App Screenshots
+
+ - **Home screen**
+
+![enter image description here](https://raw.githubusercontent.com/rcarvello/wcm_people_development/master/resources/home.png)
+
+ - **Job and Skills management**
+
+![enter image description here](https://raw.githubusercontent.com/rcarvello/wcm_people_development/master/resources/job_skill.png)
+
+ - **Assessment**
+
+![enter image description here](https://raw.githubusercontent.com/rcarvello/wcm_people_development/master/resources/assesment.png)
+![enter image description here](https://raw.githubusercontent.com/rcarvello/wcm_people_development/master/resources/radar.png)
+
+ - **Error assignment, Herca and The Way To Teach People**
+
+![enter image description here](https://raw.githubusercontent.com/rcarvello/wcm_people_development/master/resources/error_assignment.png)
+![enter image description here](https://raw.githubusercontent.com/rcarvello/wcm_people_development/master/resources/herca.png)
+![enter image description here](https://raw.githubusercontent.com/rcarvello/wcm_people_development/master/resources/twttp.png)
+
+### Thanks
+Many and many thanks to   
+
+![https://www.jetbrains.com](https://raw.githubusercontent.com/rcarvello/webmvcframework/master/docs/jetbrains.png)  
+for granting me an open source license of magic   
+   
+![https://www.jetbrains.com/phpstorm/](https://raw.githubusercontent.com/rcarvello/webmvcframework/master/docs/phpstorm.png)   **PHPStorm**       
+    
+that I used in the development of this open source Web App.   
+
