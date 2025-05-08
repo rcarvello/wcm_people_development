@@ -3,7 +3,7 @@ An open-source implementation of the "People Development" pillar of the World Cl
 
 ## Introduction
 
-World Class Manufacturing (**WCM**) is a comprehensive, systematic approach to improve all aspects of a manufacturing operation. It focuses on continuous improvement, waste elimination, and achieving world-class production standards across all areas, from safety to customer service, and from equipment management to employee development. The goal is to achieve a "**zero waste**" state in terms of defects, downtime, accidents, and customer dissatisfaction. 
+World Class Manufacturing (**WCM**) is a comprehensive, systematic approach to improve all aspects of a manufacturing operation. It focuses on continuous improvement, elimination of waste, and achieving world-class production standards across all areas, from safety to customer service, equipment management to employee development. The goal is to achieve a "**zero waste**" state in terms of defects, downtime, accidents, and customer dissatisfaction. 
 
 Here's a more detailed breakdown:
 
@@ -16,7 +16,7 @@ Here's a more detailed breakdown:
  - **Employee Involvement:** WCM encourages the active participation of all employees in identifying and implementing improvements. 
 
 **Core Elements:**
-WCM is often organized around 10 key pillars, including:
+WCM is often organised around 10 key pillars, including:
 
  1. Safety: Ensuring a safe working environment.  
  2. Cost Deployment:    Identifying and addressing cost-related losses.  
@@ -40,56 +40,56 @@ Here's a breakdown of the **basic requirements** for implementing this pillar:
 
 ----------
 
-###  **1. Commitment from Leadership**
+####  **1. Commitment from Leadership**
 
 -   Senior management must actively support and participate in people development initiatives.
     
 -   Development goals should align with the company's strategic objectives.
     
 
-###  **2. Skills Matrix and Gap Analysis**
+####  **2. Skills Matrix and Gap Analysis**
 
 -   Create a **skills matrix** for all roles to understand current competencies.
     
--   Perform **gap analysis** to identify training needs at individual and team levels.
+-   Perform **gap analysis** to identify training needs at the individual and team levels.
     
 
-###  **3. Training Programs**
+####  **3. Training Programs**
 
 -   Design structured **training plans** (technical skills, soft skills, safety, problem-solving).
     
 -   Use tools like **TWI (Training Within Industry)** or the **4-step method** (Prepare, Present, Try Out, Follow Up).
     
 
-###  **4. Standard Work and Procedures**
+####  **4. Standard Work and Procedures**
 
 -   Document standardized work processes to ensure consistency and ease of training.
     
 -   Use visuals and SOPs to facilitate learning.
     
 
-###  **5. Continuous Learning Culture**
+####  **5. Continuous Learning Culture**
 
 -   Encourage a learning environment with **Kaizen** activities and regular knowledge-sharing sessions.
     
 -   Implement **cross-training** to increase flexibility and team resilience.
     
 
-### **6. Performance Measurement**
+#### **6. Performance Measurement**
 
 -   Track training hours, competency improvements, and application of skills on the shop floor.
     
--   Use KPIs like **training completion rate, multi-skilling index, and employee engagement scores**.
+-   Use KPIS like **training completion rate, multi-skilling index, and employee engagement scores**.
     
 
-### **7. Career Path and Motivation**
+#### **7. Career Path and Motivation**
 
--   Provide visible career development paths and recognize skill achievements.
+-   Provide visible career development paths and recognise skill achievements.
     
 -   Use **certifications or level badges** to motivate progression.
     
 
-###  **8. Employee Involvement**
+####  **8. Employee Involvement**
 
 -   Engage workers in decision-making and problem-solving (e.g., through suggestion systems or improvement teams).
     
@@ -100,7 +100,7 @@ Here's a breakdown of the **basic requirements** for implementing this pillar:
 
 PD Wev App is a technical aid for assessing and developing skills in continuous improvement programs.
 
-Strategic human resources management is the lever for achieving excellence. The People Development (PD) app promotes the development of skills of people working in the factory starting from the mapping of tasks and skills needed to carry out production activities. With the PD app, the skills of each worker are identified and assessed with a score; the values ​​recorded concern both the minimum skills required by the job and those detected by the evaluator. The deviations between the expected value and the assessed value, highlighted in a skills radar chart, allow the worker's training needs to be assessed and training action to be planned to fill the skills gap.
+Strategic human resources management is the lever for achieving excellence. The People Development (PD) app promotes the development of skills of people working in the factory, starting from the mapping of tasks and skills needed to carry out production activities. With the PD app, the skills of each worker are identified and assessed with a score; the values ​​recorded concern both the minimum skills required by the job and those detected by the evaluator. The deviations between the expected value and the assessed value, highlighted in a skills radar chart, allow the worker's training needs to be assessed and training action to be planned to fill the skills gap.
 
 In **World Class Manufacturing (WCM)**, **HERCA** and effective **Ways to Teach People** are central to the **People Development** pillar. Here’s how they fit in:
 
@@ -219,18 +219,21 @@ Drive continuous personal improvement
 
 ## Requirements and setup
 
-People Development Web App is coded in HTML, JS, JS, BootStrap and jQuery for the FrontEnd
-and PHP with  MySQL in BackEnd. It is developed by using [PHP Web MVC Framework](https://github.com/rcarvello/webmvcframework)
-It requires a server with a Apache, PHP >= 7.2 and MySQL >= 5.5
-To install it  just copy the source code into a web folder and set MySql parameters in application.config.php. Execute .sql files into your MySql server to create DB schema
+The People Development Web App is coded in HTML, JS, Bootstrap, and jQuery for the Front End and PHP with MySQL in the Back End. 
+It is developed by using [PHP Web MVC Framework](https://github.com/rcarvello/webmvcframework).
+It requires a server with Apache, PHP >= 7.2 and MySQL >= 5.5.
+To install, download and copy it into an Apache web folder. Then go to the **config** directory and modify **application.config.php**  according to your MySQL 
+server configuration and the Apache web folder you want to use to deploy your application.
+Also, execute **sdl\db.sql** files into your Mysql server to create the DB schema. By default, it creates a database named **people_dev** with sample data. The
+**sql\empty_db.sql** creates an empty DB schema ready for production.
 
 ### Thanks
 Many and many thanks to   
 
 ![https://www.jetbrains.com](https://raw.githubusercontent.com/rcarvello/webmvcframework/master/docs/jetbrains.png)  
-for granting me an open source license of magic   
+for granting me an open-source license for Magic   
    
 ![https://www.jetbrains.com/phpstorm/](https://raw.githubusercontent.com/rcarvello/webmvcframework/master/docs/phpstorm.png)   **PHPStorm**       
     
-that I used in the development of this open source Web App.   
+that I used in the development of this open-source Web App.   
 
