@@ -31,8 +31,10 @@ WCM is often organised around 10 key pillars, including:
 
 ![enter image description here](https://raw.githubusercontent.com/rcarvello/wcm_people_development/master/resources/wcm_pillars.png)
 
-**7-Step Implementation Process:**
+
 Each pillar is implemented through a 7-step process, moving from reactive to preventive and ultimately proactive approaches. 
+
+## The People Development Pillar
 
 The **People Development** pillar is one of the foundational elements of **World Class Manufacturing (WCM)**. It focuses on empowering and developing employees to support continuous improvement and operational excellence. 
 
@@ -98,11 +100,11 @@ Here's a breakdown of the **basic requirements** for implementing this pillar:
 
 ## The People Development Web App
 
-PD Wev App is a technical aid for assessing and developing skills in continuous improvement programs.
+The People Development (**PD**) Web App is a technical aid for assessing and developing skills in continuous improvement programs.
 
-Strategic human resources management is the lever for achieving excellence. The People Development (PD) app promotes the development of skills of people working in the factory, starting from the mapping of tasks and skills needed to carry out production activities. With the PD app, the skills of each worker are identified and assessed with a score; the values ​​recorded concern both the minimum skills required by the job and those detected by the evaluator. The deviations between the expected value and the assessed value, highlighted in a skills radar chart, allow the worker's training needs to be assessed and training action to be planned to fill the skills gap.
+Strategic human resources management is the lever for achieving excellence. The App promotes the development of skills of people working in the factory, starting from the mapping of tasks and skills needed to carry out production activities. With the PD App, the skills of each worker are identified and assessed with a score; the values ​​recorded concern both the minimum skills required by the job and those detected by the evaluator. The gap between the expected value and the assessed value, highlighted in a skills radar chart, allow the worker's training needs to be assessed and training action to be planned to fill the skills gap through the use of **HERCA** and **TWTTP** 
 
-In **World Class Manufacturing (WCM)**, **HERCA** and effective **Ways to Teach People** are central to the **People Development** pillar. Here’s how they fit in:
+In **World Class Manufacturing (WCM)**, **HERCA** and effective **The Ways to Teach People (TWTTP)** are central to the People Development pillar. 
 
 ----------
 
@@ -139,7 +141,7 @@ HERCA is a structured method used in WCM to assess and develop employee skills.
 
 ----------
 
-#### **The Way to Teach People – TWI & 4-Step Method**
+#### **The Way to Teach People – TWTTP & 4-Step Method**
 
 Training must be structured and effective. WCM encourages using standard methods like:
 
@@ -173,10 +175,10 @@ A proven method for teaching skills on the shop floor.
 
 ----------
 
-### How HERCA and Teaching Methods Fit into People Development App
+### How HERCA and TWTTP Fit into People Development App
 
 
-**HERCA**
+### HERCA
 
 Assess, structure, and track skill development
 
@@ -184,7 +186,7 @@ Assess, structure, and track skill development
 
 Visualise current vs. required competencies
 
-**TWI/4-Step Method**
+### TWTTP 4-Step Method
 
 Ensure consistent, effective skill transfer
 
@@ -198,34 +200,42 @@ Drive continuous personal improvement
 
 ### Web App Screenshots
 
- - **Home screen**
+ **Home screen**
 
 ![enter image description here](https://raw.githubusercontent.com/rcarvello/wcm_people_development/master/resources/home.png)
 
- - **Job and Skills management**
+**Job and Skills management**
 
 ![enter image description here](https://raw.githubusercontent.com/rcarvello/wcm_people_development/master/resources/job_skill.png)
 
- - **Assessment**
+**Assessment**
 
 ![enter image description here](https://raw.githubusercontent.com/rcarvello/wcm_people_development/master/resources/assesment.png)
 ![enter image description here](https://raw.githubusercontent.com/rcarvello/wcm_people_development/master/resources/radar.png)
 
- - **Error assignment, Herca and The Way To Teach People**
+**Error assignment, Herca and The Way To Teach People**
 
 ![enter image description here](https://raw.githubusercontent.com/rcarvello/wcm_people_development/master/resources/error_assignment.png)
 ![enter image description here](https://raw.githubusercontent.com/rcarvello/wcm_people_development/master/resources/herca.png)
 ![enter image description here](https://raw.githubusercontent.com/rcarvello/wcm_people_development/master/resources/twttp.png)
 
-## Requirements and setup
+## Requirements and Setup
 
 The People Development Web App is coded in HTML, JS, Bootstrap, and jQuery for the Front End and PHP with MySQL in the Back End. 
 It is developed by using [PHP Web MVC Framework](https://github.com/rcarvello/webmvcframework).
+
 It requires a server with Apache, PHP >= 7.2 and MySQL >= 5.5.
-To install, download and copy it into an Apache web folder. Then go to the **config** directory and modify **application.config.php**  according to your MySQL 
-server configuration and the Apache web folder you want to use to deploy your application.
-Also, execute **sdl\db.sql** files into your Mysql server to create the DB schema. By default, it creates a database named **people_dev** with sample data. The
-**sql\empty_db.sql** creates an empty DB schema ready for production.
+
+1. To install, download and copy it into an Apache web folder. 
+
+2. Then go to the **config** directory and modify **application.config.php**  according to your MySQL server configuration and the Apache web folder you want to use to deploy your application.
+
+3. Also, execute **sdl\db.sql** files into your Mysql server to create the DB schema. By default, it creates a database named **people_dev** with sample data. 
+
+
+File **sql\empty_db.sql** creates an empty DB schema ready for production.
+
+On Windows with PHP and MySQL installed you can run the application by using PHP built in web server. Just modify **server.bat** by setting your PHP path and execute it.
 
 ### Thanks
 Many and many thanks to   
