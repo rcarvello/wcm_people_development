@@ -198,7 +198,7 @@ Motivate and retain talent
 
 Drive continuous personal improvement
 
-### Web App Screenshots
+## Web App Screenshots
 
  **Home screen**
 
