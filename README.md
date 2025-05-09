@@ -271,6 +271,8 @@ File **sql\empty_db.sql** creates an empty DB schema ready for production.
 
 On Windows with PHP and MySQL installed you can run the application by using PHP built in web server. Just modify **server.bat** by setting your PHP path and execute it.
 
+To login you can use crediantials stored into user table. All password are "password"
+
 ### Thanks
 Many and many thanks to   
 
