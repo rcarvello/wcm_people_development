@@ -281,5 +281,5 @@ for granting me an open-source license for Magic
    
 ![https://www.jetbrains.com/phpstorm/](https://raw.githubusercontent.com/rcarvello/webmvcframework/master/docs/phpstorm.png)   **PHPStorm**       
     
-that I used in the development of this open-source Web App.   
+that I used in the development of the open-source PHP framework   
 
