@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Notifica errore</title>
+</head>
+<body>
+    <div class="container">
+        <div class="col-sm-8">
+            <h3>Notifica automatica per nuovo assegnamento errore</h3>
+            <table class="table col-sm-10" border="1" cellspacing="2" cellpadding="10">
+                <tr>
+                    <th>Impiegato</th><th>Mansione</th><th>Competenza</th>
+                </tr>
+                <tr>
+                    <td>{EmployeeName}</td><td>{JobName}</td><td>{SkillName}</td>
+                </tr>
+                <tr>
+                    <td colspan="3"><b>Descrizione</b>:<br>{Description}<br></td>
+                </tr>
+                <tr>
+                    <td colspan="3"><b>Esito</b>: <br>{ErrorsResult}</br></td>
+                </tr>
+                <tr>
+                    <td colspan="3">
+                        <b>Codice</b>: {ErrroId}<br>
+                        <b>Valutatore</b>: {Assessor}<br>
+                        <b>Data</b>: {AssessmentDate}<br>
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </div>
+</body>
+</html>

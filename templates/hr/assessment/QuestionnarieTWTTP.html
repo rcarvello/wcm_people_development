@@ -1,0 +1,145 @@
+<style>
+    select.small-select {
+        max-width: 200px;
+        min-width: 200px;
+        width: 200px !important;
+    }
+</style>
+<div class="table-responsive">
+    <form name="twttp_questionnaire">
+        <table class="table table-condensed">
+            <!-- Riga Campione -->
+            <tr>
+                <th>{RES:Defect}</th>
+                <td><input name="defect" id="defect" class="form-control" type="text" value="" placeholder=""></td>
+            </tr>
+            <!-- Riga Campione -->
+
+            <tr>
+                <th>{RES:UTE}</th>
+                <td><input name="ute" id="ute" class="form-control" type="text" value="" placeholder=""></td>
+            </tr>
+            <tr>
+                <th>{RES:OperationNumber}</th>
+                <td><input name="opNum" id="opNum" class="form-control" type="text" value="" placeholder=""></td>
+            </tr>
+            <tr>
+                <th>{RES:Employee}</th>
+                <td><input name="employee" id="employee" class="form-control" type="text" value="" placeholder=""></td>
+            </tr>
+            <tr>
+                <th>{RES:Role}</th>
+                <td><input name="roleEmployee" id="roleEmployee" class="form-control" type="text" value="" placeholder="{RES:EmployeeRole}"></td>
+            </tr>
+            <tr><th>{RES:Workshift}</th>
+                <td><input name="workshift" id="workshift" class="form-control" type="text" value="" placeholder=""></td>
+            </tr>
+
+            <tr>
+                <th>{RES:Interviewer}</th>
+                <td><input name="interviewer" id="interviewer" class="form-control" type="text" value="" placeholder=""></td>
+            </tr>
+            <tr>
+                <th> {RES:Role}</th>
+                <td><input name="roleInterviewer" id="roleInterviewer" class="form-control" type="text" value="" placeholder="{RES:InterviewerRole}"></td>
+            </tr>
+            <tr>
+                <th>{RES:Date}</th>
+                <td><input name="date" id="date" class="form-control" type="text" value="" placeholder=""></td>
+            </tr>
+        </table>
+        <table class="table">
+            <tr>
+                <td>
+                    <table>
+                        <tr>
+                            <th>{RES:TWTTPQ1}</th>
+                        </tr>
+                        <tr>
+                            <td>
+                                <select name="selectQ1" id="selectQ1" class="form-control small-select">
+                                    <option value="0">{RES:Select}</option>
+                                    <option value="A">{RES:1A}</option>
+                                    <option value="B">{RES:1B}</option>
+                                    <option value="C">{RES:1C}</option>
+                                </select>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td><textarea name="evalQ1" id="evalQ1" class="form-control" placeholder="{RES:Evaluation}"></textarea></td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <table>
+                        <tr>
+                            <th>{RES:TWTTPQ2}</th>
+                        </tr>
+                        <tr>
+                            <td>
+                                <select name="selectQ2" id="selectQ2" class="form-control small-select">
+                                    <option value="0">{RES:Select}</option>
+                                    <option value="A">{RES:2A}</option>
+                                    <option value="B">{RES:2B}</option>
+                                    <option value="C">{RES:2C}</option>
+                                </select>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td><textarea  name="evalQ2" id="evalQ2" class="form-control" placeholder="{RES:Evaluation}"></textarea></td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <table>
+                        <tr>
+                            <th>{RES:TWTTPQ3}</th>
+                        </tr>
+                        <tr>
+                            <td>
+                                <select name="selectQ3" id="selectQ3" class="form-control small-select">
+                                    <option value="0">{RES:Select}</option>
+                                    <option value="A">{RES:3A}</option>
+                                    <option value="B">{RES:3B}</option>
+                                    <option value="C">{RES:3C}</option>
+                                </select>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td><textarea name="evalQ3" id="evalQ3" class="form-control" placeholder="{RES:Evaluation}"></textarea></td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <table>
+                        <tr>
+                            <th>{RES:TWTTPQ4}</th>
+                        </tr>
+                        <tr>
+                            <td>
+                                <select name="selectQ4" id="selectQ4" class="form-control small-select">
+                                    <option value="0">{RES:Select}</option>
+                                    <option value="A">{RES:4A}</option>
+                                    <option value="B">{RES:4B}</option>
+                                    <option value="C">{RES:4C}</option>
+                                </select></td>
+                        </tr>
+                        <tr>
+                            <td><textarea name="evalQ4" id="evalQ4" class="form-control" placeholder="{RES:Evaluation}"></textarea></td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+
+        </table>
+    </form>
+</div>
