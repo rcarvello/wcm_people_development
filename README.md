@@ -221,8 +221,42 @@ Drive continuous personal improvement
 
 ## Requirements and Setup
 
+### Introduction
+
 The People Development Web App is coded in HTML, JS, Bootstrap, and jQuery for the Front End and PHP with MySQL in the Back End. 
 It is developed by using [PHP Web MVC Framework](https://github.com/rcarvello/webmvcframework).
+
+Building an application using a **custom ad hoc framework** instead of a public one (like Laravel) has **advantages** especially in terms of **long-term support**.
+
+Main Benefits are:
+
+1. **Full Control Over Architecture**
+
+   * A custom framework fit your exact application needs.
+   * No unnecessary features or abstractions that increase complexity or load.
+   * Enforces the future development of a specific eco-sysyem, for examples pillars of WCM
+
+2. **Lightweight & Performance-Oriented**
+
+   * Custom framework can be optimized for your specific use case, reducing overhead and improving speed.
+   * You avoid bloated codebases or unused components common in general-purpose frameworks.
+
+3. **Tailored Long-Term Maintenance**
+
+   * You control when and how the framework is updated — avoiding forced migrations or breaking changes introduced by public framework updates.
+   * No dependency on external community decisions or version cycles.
+
+4. **Avoiding Framework Lock-In**
+
+   * No limitations to the philosophies, or future changes of a public framework.
+
+
+---
+
+### Requirements an setup
+
+
+
 
 It requires a server with Apache, PHP >= 7.2 and MySQL >= 5.5.
 
