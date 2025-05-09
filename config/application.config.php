@@ -31,7 +31,7 @@ define("DBUSER","root");
 /**
  * MySQL Password
  */
-define("DBPASSWORD","letmysql");
+define("DBPASSWORD","password");
 
 /**
  *  MySQL Database
