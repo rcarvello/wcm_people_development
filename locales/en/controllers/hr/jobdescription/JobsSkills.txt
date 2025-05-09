@@ -1,0 +1,47 @@
+#Comment: Loads translations
+#Load:locales/en/controllers/hr/common/NavigationBar.txt
+JobListManagerTitle=Job Description Management
+JobButtonCaption=Job
+SelectAJob=Select a job..
+SkillsButtonCaption=Skills
+SkillCaption=Skill
+SkillExpectedValueCaption=Expected value
+Value=Value..
+SubmitUpdateJobsSkillCaption=Save
+NoJobsFoundMessage=No skills were found for the selected job
+MJCaption=Actions for Job
+MJAddTabCaption=Add
+MJNewJobPanelTitle=Add a new job
+NameLabel=Name
+JobNamePlaceHolder=Insert the job name
+DescriptionLabel=Description
+JobDescriptionPlaceHolder=Insert the job description
+AddButton=Add
+CancelLinkCaption=Cancel
+MJUpdateTabCaption=Edit
+MJEditJobPanelTitle=Edit current job
+UpdateButton=Update
+DeleteButton=Delete
+MJSTitle=Actions for skills
+MJSSelectTabCaption=Select
+MJSAddTabCaption=Add
+SelectOneOrMoreSkillsPanelTitle=Selects one or more skills
+SkillThCaption=Skill name
+NoSkillsForSelecting=No skills to select
+AssigButton=Assign
+AddSkillPanelTitle=Data for new skill
+ExpectedValueLabel=Expected value
+SkillNamePlaceHolder=Insert skill name
+SkillDescriptionPlaceHolder=Short skill description
+BTD_LENGTH_FOR_PAGE=
+BTD_NO_RECORDS=no records
+BTD_OF=of
+BTD_FIND=Find
+BTD_RESULT_OF=result of
+BTD_RESULT_TOTALS=totals
+BTD_FIRST=First
+BTD_LAST=Last
+BTD_NEXT=Next
+BTD_PREVIOUS=Prev.
+
+

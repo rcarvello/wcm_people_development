@@ -1,0 +1,8 @@
+#Comment: Loads translations
+#Load:locales/it-it/controllers/hr/common/NavigationBar.txt
+HomeEmployeeManager=DIPENDENTI
+HomeUserManager=UTENZA
+HomeJobListManager=MANSIONARIO
+HomeAssessment=VALUTAZIONE
+HomeEvaluationGraph=GRAFICI DI VALUTAZIONE
+HTMLENCODING=UTF-8

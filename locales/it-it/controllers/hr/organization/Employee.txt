@@ -1,0 +1,19 @@
+#Comment: Loads translations
+#Load:locales/it-it/controllers/hr/common/NavigationBar.txt
+ErrorMessageTitle=Si sono verificati i seguenti errori:
+FixErrors=Correggi i dati indicati e riprova. Grazie
+EmployeePageTitle=Scheda impiegato
+EditEmployee=Modifica:
+AddNewEmployee=Aggiungi un nuovo impiegato
+FirstName=Nome
+PlaceHolderFirstName=Specifica il nome
+LastName=Cognome
+PlaceHolderLastName=Specifica il cognome
+TaxCode=Codice Fiscale
+PlaceHolderTaxCode=Specifica il codice fiscale
+Gender=Sesso
+BirthDate=Data di nascita
+PlaceHolderBirthDate=Inserisci la data di nascita
+BirthPlace=Luogo di nascita
+PlaceHolderBirthPlace=Specifica il luogo di nascita
+

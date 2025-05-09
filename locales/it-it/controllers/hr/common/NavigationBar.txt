@@ -1,0 +1,14 @@
+#Comment: Loads translations
+Administration=Amministrazione
+JobListManager=Mansionario
+Assessment=Valutazione
+Graphs=Grafici
+AccessControl=Criteri di acesso
+UserManager=Utenti
+Organizzation=Struttura organizzativa
+Employees=Dipendenti
+LanguageSettings=Impostazioni lingua
+Italian=Italiano
+English=Inglese
+Credits=Crediti
+Logout=Disconnetti

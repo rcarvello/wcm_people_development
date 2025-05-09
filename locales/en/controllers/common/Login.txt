@@ -1,0 +1,11 @@
+#Comment: Loads translations
+LoginPageTitle=Login to People Empowerment
+LogiFormTitle=Insert your credentials
+LoginAuthWarningMessage=This page requires authentication
+LoginRBACWarningMessage=You do not have access rights for the current page
+RememberMeText=Remember me
+LoginButtonCaption=Login
+LogoutButtonCaption=Logout
+CancelButtonCaption=Cancel
+LoginError=Login incorrect
+CopyRightInfo=Open Source Project by rosario.carvello@gmail.com

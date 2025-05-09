@@ -1,0 +1,18 @@
+#Comment: Loads translations
+#Load:locales/en/controllers/hr/common/NavigationBar.txt
+ErrorMessageTitle=There were errors:
+FixErrors=Please fix your input data and try again
+EmployeePageTitle=Employee record
+EditEmployee=Edit:
+AddNewEmployee=Add a new employee
+FirstName=First name
+PlaceHolderFirstName=Insert employee first name
+LastName=Last name
+PlaceHolderLastName=Insert employee last name
+TaxCode=Tax code
+PlaceHolderTaxCode=Insert employee IT tax code
+Gender=Gender
+BirthDate=Birth date
+PlaceHolderBirthDate=Insert employee birth date
+BirthPlace=Birth place
+PlaceHolderBirthPlace=Insert employee birth place

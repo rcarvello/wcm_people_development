@@ -1,0 +1,7 @@
+#Comment: Loads translations
+#Load:locales/it-it/controllers/hr/common/NavigationBar.txt
+SelectAnAssignedJob=Seleziona mansione
+ExpectedLegend=Atteso
+AssessedLegend=Valutato
+PreviousLegend=Precedente
+UnavailableChart=Grafico non disponibile

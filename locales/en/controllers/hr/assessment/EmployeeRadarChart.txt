@@ -1,0 +1,7 @@
+#Comment: Loads translations
+#Load:locales/en/controllers/hr/common/NavigationBar.txt
+SelectAnAssignedJob=Select a job
+ExpectedLegend=Expected
+AssessedLegend=Assessed
+PreviousLegend=Previous
+UnavailableChart=Unavailable chart

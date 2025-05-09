@@ -1,0 +1,8 @@
+#Comment: Loads translations
+#Load:locales/en/controllers/hr/common/NavigationBar.txt
+HomeEmployeeManager=EMPLOYEES
+HomeUserManager=USERS
+HomeJobListManager=JOB DESCRIPTION
+HomeAssessment=ASSESSMENT
+HomeEvaluationGraph=ASSESSMENT CHARTS
+HTMLENCODING=UTF-8

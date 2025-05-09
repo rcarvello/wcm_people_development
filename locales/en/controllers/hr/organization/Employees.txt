@@ -1,0 +1,17 @@
+#Comment: Loads translations
+#Load:locales/en/controllers/hr/common/NavigationBar.txt
+BTD_LENGTH_FOR_PAGE=
+BTD_NO_RECORDS=no records
+BTD_OF=of
+BTD_SEARCH=
+BTD_SEARCH_PLACEHOLDER=Search
+BTD_RESULT_OF=result of
+BTD_RESULT_TOTALS=totals
+BTD_FIRST=First
+BTD_LAST=Last
+BTD_NEXT=Next
+BTD_PREVIOUS=Prev.
+Actions=Actions
+first_name=First name
+last_name=Last name
+tax_code=Tax code

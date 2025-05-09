@@ -1,0 +1,47 @@
+#Comment: Loads translations
+#Load:locales/it-it/controllers/hr/common/NavigationBar.txt
+JobListManagerTitle=Gestione Mansionario
+JobButtonCaption=Mansione
+SelectAJob=Seleziona la mansione...
+SkillsButtonCaption=Competenze
+SkillCaption=Competenza
+SkillExpectedValueCaption=Valore atteso
+Value=Valore..
+SubmitUpdateJobsSkillCaption=Salva
+NoJobsFoundMessage=Nessuna competenza per la mansione selezionata
+MJCaption=Azioni per le mansioni
+MJAddTabCaption=Aggiungi
+MJNewJobPanelTitle=Aggiungi nuova mansione
+NameLabel=Nome
+JobNamePlaceHolder=Inserire il nome mansione
+DescriptionLabel=Descrizione
+JobDescriptionPlaceHolder=Inserire la descrizione della mansione
+AddButton=Aggiungi
+CancelLinkCaption=Annulla
+MJUpdateTabCaption=Modifica
+MJEditJobPanelTitle=Modifica la mansione corrente
+UpdateButton=Aggiorna
+DeleteButton=Elimina
+MJSTitle=Azioni per le competenze
+MJSSelectTabCaption=Seleziona
+MJSAddTabCaption=Aggiungi
+SelectOneOrMoreSkillsPanelTitle=Seleziona una o pi&ugrave; competenze
+SkillThCaption=Nome competenza
+NoSkillsForSelecting=Nessuna competenza selezionabile
+AssigButton=Assegna
+AddSkillPanelTitle=Dati per la nuova competenza
+ExpectedValueLabel=Valore atteso
+SkillNamePlaceHolder=Inserire il nome della competenza
+SkillDescriptionPlaceHolder=Breve descrizione
+BTD_LENGTH_FOR_PAGE=
+BTD_NO_RECORDS=nessun record
+BTD_OF=di
+BTD_FIND=Cerca
+BTD_RESULT_OF=risultati di
+BTD_RESULT_TOTALS=totali
+BTD_FIRST=Primo
+BTD_LAST=Ultimo
+BTD_NEXT=Succ.
+BTD_PREVIOUS=Prec.
+
+
