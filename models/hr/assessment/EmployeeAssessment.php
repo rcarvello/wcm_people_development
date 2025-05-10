@@ -93,20 +93,27 @@ SQL;
             $sql = "SELECT * FROM jobs_skills WHERE id_job=$idJob";
             $result = $this->query($sql);
             if ($result){
+				
                 while ($jobSkill = $result->fetch_object()){
                     $idSkill = $jobSkill->id_skill;
                     $sql = "INSERT INTO employees_jobs_skills (id_employee, id_job, id_skill) VALUES ($idEmplooyee,$idJob,$idSkill)";
                     $this->query($sql);
-                    $user = new User();
-                    $currentDate = date('Y-m-d h:i:s', time());
-                    $bean = new BeanAssessment();
-                    $bean->setIdEmployee($idEmplooyee);
-                    $bean->setIdSkill($idSkill);
-                    $bean->setAssessedBy($user->getId());
-                    $bean->setAssessmentDate($currentDate);
-                    $bean->setAssessedLevel(1);
-                    $bean->insert();
-                }
+                  
+				    $bean = new BeanAssessment();
+					$stored = $bean->select($idEmplooyee,$idSkill);
+					
+					if ($stored==NULL) {
+						$user = new User();
+						$currentDate = date('Y-m-d h:i:s', time());
+						$bean = new BeanAssessment();
+						$bean->setIdEmployee($idEmplooyee);
+						$bean->setIdSkill($idSkill);
+						$bean->setAssessedBy($user->getId());
+						$bean->setAssessmentDate($currentDate);
+						$bean->setAssessedLevel(1);
+						$bean->insert();				
+					}
+				}
             }
         }
     }
