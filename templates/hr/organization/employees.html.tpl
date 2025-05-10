@@ -27,7 +27,7 @@
             <a href="{GLOBAL:SITEURL}/hr/organization/employee" class="btn btn-info"><span class="glyphicon glyphicon-plus"></span> {RES:Employees}</a>
         </div>
         <div class="panel-body">
-            <div class="table table-responsive">
+            <div id="emp" class="table table-responsive hidden">
                 <table class="table table-bordered table-hover" id="table_employees">
                     <thead>
                         <tr>
@@ -95,8 +95,9 @@
                     ,
                 }
             });
-
+        
             $('#table_employees').DataTable();
+			$('#emp').removeClass("hidden");
         }
 
 
