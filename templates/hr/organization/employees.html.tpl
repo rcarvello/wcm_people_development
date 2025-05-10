@@ -97,7 +97,7 @@
             });
         
             $('#table_employees').DataTable();
-			$('#emp').removeClass("hidden");
+	    $('#emp').removeClass("hidden");
         }
 
 
