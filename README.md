@@ -217,6 +217,12 @@ Drive continuous personal improvement
 ![enter image description here](https://raw.githubusercontent.com/rcarvello/wcm_people_development/master/resources/herca.png)
 ![enter image description here](https://raw.githubusercontent.com/rcarvello/wcm_people_development/master/resources/twttp.png)
 
+## ER Diagram
+MySQL ER Diagram
+
+![enter image description here](https://raw.githubusercontent.com/rcarvello/wcm_people_development/master/resources/er_model.png)
+
+
 ## Requirements and Setup
 
 ### Introduction
