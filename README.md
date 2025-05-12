@@ -5,9 +5,7 @@ An open-source implementation of the "People Development" pillar of the World Cl
 
 World Class Manufacturing (**WCM**) is a comprehensive, systematic approach to improve all aspects of a manufacturing operation. It focuses on continuous improvement, elimination of waste, and achieving world-class production standards across all areas, from safety to customer service, equipment management to employee development. The goal is to achieve a "**zero waste**" state in terms of defects, downtime, accidents, and customer dissatisfaction. 
 
-Here's a more detailed breakdown:
-
-**Key Principles:**
+## Key Principles of WCM
 
  - **Continuous Improvement**: WCM emphasizes ongoing efforts to identify and eliminate waste, improve processes, and increase efficiency.
  - **Holistic Approach**: It encompasses all aspects of the manufacturing operation, from the shop floor to management practices. 
@@ -15,8 +13,8 @@ Here's a more detailed breakdown:
  - **Zero Waste**: The ultimate goal is to eliminate all forms of waste, including defects, downtime, accidents, and inventory, to achieve optimal efficiency and reduce costs. 
  - **Employee Involvement:** WCM encourages the active participation of all employees in identifying and implementing improvements. 
 
-**Core Elements:**
-WCM is often organised around 10 key pillars, including:
+## Core Elements of WCM
+WCM is organised around 10 key pillars, including:
 
  1. Safety: Ensuring a safe working environment.  
  2. Cost Deployment:    Identifying and addressing cost-related losses.  
@@ -224,38 +222,31 @@ Drive continuous personal improvement
 ### Introduction
 
 The People Development Web App is coded in HTML, JS, Bootstrap, and jQuery for the Front End and PHP with MySQL in the Back End. 
-It is developed by using [PHP Web MVC Framework](https://github.com/rcarvello/webmvcframework).
-
-Building an application using a **custom ad hoc framework** instead of a public one (like Laravel) has **advantages** especially in terms of **long-term support**.
-
-Main Benefits are:
+The server-side logic was developed using [PHP Web MVC Framework](https://github.com/rcarvello/webmvcframework). The reason for building the PD Web APP using a **custom ad hoc framework** instead of a public one (like Laravel) has the following **advantages**:
 
 1. **Full Control Over Architecture**
 
-   * A custom framework fit your exact application needs.
+   * The custom PHP Web MVC Framework fits the exact application needs.
    * No unnecessary features or abstractions that increase complexity or load.
-   * Enforces the future development of a specific eco-sysyem, for examples pillars of WCM
+   * Enforces the future development of a specific eco-system, for example, other pillars of WCM
 
 2. **Lightweight & Performance-Oriented**
 
-   * Custom framework can be optimized for your specific use case, reducing overhead and improving speed.
-   * You avoid bloated codebases or unused components common in general-purpose frameworks.
+   * PHP Web MVC Framework is optimised for the specific use case, reducing overhead and improving speed.
+   * Avoiding bloated codebases or unused components common in general-purpose frameworks.
 
 3. **Tailored Long-Term Maintenance**
 
-   * You control when and how the framework is updated — avoiding forced migrations or breaking changes introduced by public framework updates.
+   * Control when and how the framework needs to be updated — avoiding forced migrations or breaking changes introduced by public framework updates.
    * No dependency on external community decisions or version cycles.
 
 4. **Avoiding Framework Lock-In**
 
-   * No limitations to the philosophies, or future changes of a public framework.
-
+   * No limitations to the philosophies or future changes of a public framework.
 
 ---
 
-### Requirements an setup
-
-
+### Requirements and setup
 
 
 It requires a server with Apache, PHP >= 7.2 and MySQL >= 5.5.
@@ -264,14 +255,14 @@ It requires a server with Apache, PHP >= 7.2 and MySQL >= 5.5.
 
 2. Then go to the **config** directory and modify **application.config.php**  according to your MySQL server configuration and the Apache web folder you want to use to deploy your application.
 
-3. Also, execute **sdl\db.sql** files into your Mysql server to create the DB schema. By default, it creates a database named **people_dev** with sample data. 
+3. Also, execute the **sdl\db.sql** files into your Mysql server to create the DB schema. By default, it creates a database named **people_dev** with sample data. 
 
 
 File **sql\empty_db.sql** creates an empty DB schema ready for production.
 
-On Windows with PHP and MySQL installed you can run the application by using PHP built in web server. Just modify **server.bat** by setting your PHP path and execute it.
+On Windows with PHP and MySQL installed, you can run the application by using PHP's built-in web server. Just modify **server.bat** by setting your PHP path and execute it.
 
-To login you can use crediantials stored into user table. All password are "password"
+To log in, you can use credentials stored in the user table. All passwords are "password"
 
 ### Thanks
 Many and many thanks to   
@@ -281,5 +272,4 @@ for granting me an open-source license for Magic
    
 ![https://www.jetbrains.com/phpstorm/](https://raw.githubusercontent.com/rcarvello/webmvcframework/master/docs/phpstorm.png)   **PHPStorm**       
     
-that I used in the development of the open-source PHP framework   
-
+I used it during the project development.
