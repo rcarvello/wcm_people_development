@@ -1,7 +1,19 @@
+Licensed under the Apache License, Version 2.0 
+You may obtain a copy of the License at
+
+http://www.apache.org/licenses/LICENSE-2.0
+
+
+Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+
+See the License for the specific language governing permissions and limitations under the License.
+
+People Development is a Web App built on the PHP Web MVC Framework
+
 English
 
-Web MVC Framework v.1.1.1 2016
-Copyright (c) 2016, Rosario Carvello - rosario.carvello@gmail.com
+PHP Web MVC Framework
+Copyright (c) 2016-2025, Rosario Carvello - rosario.carvello@gmail.com
 All rights reserved.
 
 Redistribution and use in source and binary forms, with or without modification, are permitted provided that the following 
@@ -28,20 +40,20 @@ EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
 Italiano
 
-Web MVC Framework v.1.1.1 2016
-Copyright (c) 2016, Rosario Carvello - rosario.carvello@gmail.com
+PHP Web MVC Framework 
+Copyright (c) 2016-2025, Rosario Carvello - rosario.carvello@gmail.com
 All rights reserved.
 
-La ridistribuzione e l'uso in forma di codice sorgente e binaria, con o senza modifiche, sono permesse purchÈ siano rispettate le seguenti condizioni:
+La ridistribuzione e l'uso in forma di codice sorgente e binaria, con o senza modifiche, sono permesse purch√© siano rispettate le seguenti condizioni:
 
 1. Le ridistribuzioni di codice originale devono conservare la nota di copyright sopra riportata, questa lista di condizioni e il seguente disconoscimento.
 
 2. Le ridistribuzioni in formule binarie devono riprodurre la nota di copyright sopra riportata, questa lista di condizioni e il seguente disconoscimento nella documentazione e/o altri materiali forniti con la distribuzione.
 
-3. NÈ il nome del possessore di copyright, Rosario Carvello, nÈ i nomi dei suoi collaboratori possono essere utilizzati per avallare o promuovere prodotti derivati da questo software senza uno specifico permesso scritto.
+3. N√© il nome del possessore di copyright, Rosario Carvello, n√© i nomi dei suoi collaboratori possono essere utilizzati per avallare o promuovere prodotti derivati da questo software senza uno specifico permesso scritto.
 
-Questo software Ë fornito dal possessore di copyright, Rosario Carvello "cosÏ com'Ë" e qualsiasi garanzia espressa o implicita, che includa, ma che 
-non sia limitata a, garanzie implicite di commerciabilit‡ e idoneit‡ a scopo particolare, viene disconosciuta. 
-In nessun caso il possessore di copyright sar‡ ritenuto responsabile per qualsiasi danno diretto, indiretto, connesso, particolare,
-esemplare o conseguente (includente, ma non limitato a, approvvigionamenti di beni o servizi alternativi; perdita di utilit‡, dati o profitti; interruzione di affari) comunque causati e su qualsiasi ipotesi di responsabilit‡, come da contratto, responsabilit‡ oggettiva, o torto (compresa negligenza o altro)
-derivante in qualsiasi modo dall'utilizzo di questo software anche se al corrente della possibilit‡ di tale danno.
+Questo software √® fornito dal possessore di copyright, Rosario Carvello "cos√¨ com'√®" e qualsiasi garanzia espressa o implicita, che includa, ma che 
+non sia limitata a, garanzie implicite di commerciabilit√† e idoneit√† a scopo particolare, viene disconosciuta. 
+In nessun caso il possessore di copyright sar√† ritenuto responsabile per qualsiasi danno diretto, indiretto, connesso, particolare,
+esemplare o conseguente (includente, ma non limitato a, approvvigionamenti di beni o servizi alternativi; perdita di utilit√†, dati o profitti; interruzione di affari) comunque causati e su qualsiasi ipotesi di responsabilit√†, come da contratto, responsabilit√† oggettiva, o torto (compresa negligenza o altro)
+derivante in qualsiasi modo dall'utilizzo di questo software anche se al corrente della possibilit√† di tale danno.
